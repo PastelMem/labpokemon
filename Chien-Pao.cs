@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Labpokemon
 {
-    internal class Chien_Pao
+    public class Chien_Pao : pokemon
     {
+        public Chien_Pao()
+        {
+            name = "Chien_Pao";
+            id = 1002;
+            level = 100;
+            type = PokemonType.dark;
+            type = PokemonType.ice;
+        }
     }
 }

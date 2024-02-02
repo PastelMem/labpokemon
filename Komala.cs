@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Labpokemon
 {
-    internal class Komala
+    public class Komala : pokemon
     {
+        public Komala()
+        {
+            name = "Komala";
+            id = 0775;
+            level = 50;
+            type = PokemonType.normal;
+        }
     }
 }

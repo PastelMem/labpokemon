@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Labpokemon
 {
-    internal class Charizard
+    public class Charizard : pokemon
     {
+        public Charizard()
+        {
+            name = "Charizard";
+            id = 0006;
+            level = 100;
+            type = PokemonType.fire;
+            type = PokemonType.flying;
+        }
     }
 }

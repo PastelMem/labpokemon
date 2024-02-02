@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Labpokemon
 {
-    internal class Marill
+    public class Marill : pokemon
     {
+        public Marill()
+        {
+            name = "Marill";
+            id = 0183;
+            level = 60;
+            type = PokemonType.fairy;
+            type = PokemonType.water;
+        }
     }
 }

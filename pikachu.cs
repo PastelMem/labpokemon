@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Labpokemon
 {
-    internal class pikachu
+    public class pikachu : pokemon
     {
+        public pikachu()
+        {
+            name = "pikachu";
+            id = 1;
+            level= 1;
+            type = PokemonType.Electr;
+        }
     }
 }

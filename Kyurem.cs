@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Labpokemon
 {
-    internal class Kyurem
+    public class Kyurem : pokemon
     {
+        public Kyurem()
+        {
+            name = "Kyurem";
+            id = 0646;
+            level = 100;
+            type = PokemonType.dragon;
+            type = PokemonType.ice;
+        }
     }
 }
